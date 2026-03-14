@@ -87,11 +87,11 @@ Grand Temple of Ninurta - (phar_map_religion_cult_center_grand_temple_ninurta_1)
 Grand Temple of Poseidon - (phar_map_religion_cult_center_grand_temple_poseidon_1): Small Altar (phar_main_common_general_15 - +1 prayer duration).
 Grand Temple of Zeus - (phar_map_religion_cult_center_grand_temple_zeus_1): Small Altar (phar_main_common_general_15 - +1 prayer duration).
 
-? Native Barracks (Major Settlement) - (phar_main_all_military_native_type_a_kush_4 as phar_main_all_military_native_type_a_all_4_title): phar_main_rare_4
-? Native Barracks (Major Settlement) - (phar_main_all_military_native_type_a_nubia_4 as phar_main_all_military_native_type_a_all_4_title): phar_main_rare_4
-? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_haltamti_4): phar_main_rare_3, phar_main_rare_5
-? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_mat_assur_4): phar_main_rare_3, phar_main_rare_5
-? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_mat_tamti_4): phar_main_rare_3, phar_main_rare_5
+? Native Barracks (Major Settlement) - (phar_main_all_military_native_type_a_kush_4 as phar_main_all_military_native_type_a_all_4_title): phar_main_rare_4 (Malachite Jewellery - 325 XP per turn for all units)
+? Native Barracks (Major Settlement) - (phar_main_all_military_native_type_a_nubia_4 as phar_main_all_military_native_type_a_all_4_title): phar_main_rare_4 (Malachite Jewellery - 325 XP per turn for all units)
+? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_haltamti_4): phar_main_rare_3 (Mitanni Horse Trainer, +20% movement to Force March and Full Speed stance, 325 XP per turn for chariots), phar_main_rare_5 (Assyrian Mercenary - +2 Influence, +15% Combat XP for all units)
+? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_mat_assur_4): phar_main_rare_3 (Mitanni Horse Trainer, +20% movement to Force March and Full Speed stance, 325 XP per turn for chariots), phar_main_rare_5 (Assyrian Mercenary - +2 Influence, +15% Combat XP for all units)
+? Native Barracks (Major Settlement) - (phar_map_all_military_native_type_a_mat_tamti_4): phar_main_rare_3 (Mitanni Horse Trainer, +20% movement to Force March and Full Speed stance, 325 XP per turn for chariots), phar_main_rare_5 (Assyrian Mercenary - +2 Influence, +15% Combat XP for all units)
 
 ]] --
 --[[
