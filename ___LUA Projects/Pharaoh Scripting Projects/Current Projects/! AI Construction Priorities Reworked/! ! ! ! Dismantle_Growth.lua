@@ -71,7 +71,7 @@ local function Dismantle_Growth(region_key)
 end
 
 local function Growth_Listener()
-     out("Creating Listener for Maxed out Provinces.")
+     out("Creating listener for tier five provinces.")
      core:add_listener(
           "AI_CPR_DismantleGrowthListener",
           "BuildingCompleted",
