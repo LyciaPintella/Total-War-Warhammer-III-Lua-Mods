@@ -25,11 +25,11 @@
 		"**/*Vanilla*/**"
 	],
 	"files.exclude": {
-		"**/.git": false,
-		"**/.git*": true,
+		"**/.gitignore": false,
+		"**/.git/**": true,
 		"**/desktop.ini": true,
 		"**/README.md": false,
-		"**/*sync.ffs_db": true,
+		"**/*sync.ffs_*": true,
 		"**/*-Jessica-PC*/**": true
-	}
+	},
 }

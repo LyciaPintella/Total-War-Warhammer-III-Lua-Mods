@@ -1,4 +1,5 @@
-sync.ffs_db
-sync.ffs_lock
+*ffs_lock
+*ffs_db
+*ffs_tmp
 desktop.ini
 *-Jessica-PC*
