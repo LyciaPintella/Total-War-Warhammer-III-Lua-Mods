@@ -12,7 +12,6 @@ local TAUSRET_CONFIG = {
 }
 
 local function log_debug(message) if TAUSRET_CONFIG.debug_enabled then out("Unlock_Recruitment_of_Tausret_Mod: " .. tostring(message)) end end
-log_debug("===== Unlock_Recruitment_of_Tausret MOD STARTED =====")
 
 local function Unlock_Recruitment_of_Tausret()
     log_debug("Unlock_Recruitment_of_Tausret function called")
