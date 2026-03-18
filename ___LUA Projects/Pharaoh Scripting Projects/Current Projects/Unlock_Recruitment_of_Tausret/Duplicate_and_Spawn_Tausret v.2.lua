@@ -10,16 +10,16 @@ local TAUSRET_SPAWN_CONFIG = {
      agent_subtype = "phar_hero_egy_tau_tausret",
      forename = "names_name_862248711",
      family_name = "names_name_89313665",
-     spawn_in_region_key = "phar_main_kerma_kerma",
+     spawn_region_key = "phar_main_kerma_kerma",
      unit_list = "",
      startpos_id = "phar_main_tausret",
      debug_enabled = true
 }
 
-local function log_debug(message) if TAUSRET_SPAWN_CONFIG.debug_enabled then out("TAUSRET_DUPLICATE_FINAL_MOD: " .. tostring(message)) end end
+local function log_debug(message) if TAUSRET_SPAWN_CONFIG.debug_enabled then out("Duplicate_and_Spawn_Tausret_Mod: " .. tostring(message)) end end
 
 local function Duplicate_and_Spawn_Tausret()
-    log_debug("===== TAUSRET DUPLICATE (FINAL) MOD INITIALIZED =====")
+    log_debug("===== Duplicate_and_Spawn_Tausret: MOD INITIALIZED =====")
     log_debug("Creating Tausret in Amenmesse's faction (player faction)...")
 
     -- Verify faction exists
@@ -44,7 +44,7 @@ local function Duplicate_and_Spawn_Tausret()
     local cqi = cm:create_force_with_general(
         TAUSRET_SPAWN_CONFIG.faction_key,
         TAUSRET_SPAWN_CONFIG.unit_list,
-        TAUSRET_SPAWN_CONFIG.spawn_in_region_key,
+        TAUSRET_SPAWN_CONFIG.spawn_region_key,
         ---@diagnostic disable-next-line: param-type-mismatch
         x, -- X coordinate (number)
         ---@diagnostic disable-next-line: param-type-mismatch
