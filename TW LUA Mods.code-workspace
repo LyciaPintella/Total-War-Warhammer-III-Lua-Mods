@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "LUA Mods",
+			"name": "Total War Lua Mods",
 			"path": "."
 		}
 	],
@@ -23,10 +23,11 @@
 			"editor.defaultFormatter": "Koihik.vscode-lua-format"
 		},
 		"Lua.workspace.library": [
-			"../Total War LUA Autogen/battle/",
-			"../Total War LUA Autogen/campaign/",
-			"../Total War LUA Autogen/frontend/",
-			"../Total War LUA Autogen/global/",
+			"../Total War LUA Autogen/output/wh3/",
+			"../Total War LUA Autogen/output/wh3/battle/",
+			"../Total War LUA Autogen/output/wh3/campaign/",
+			"../Total War LUA Autogen/output/wh3/frontend/",
+			"../Total War LUA Autogen/output/wh3/global/",
 			"${3rd}/lfs/library"
 		],
 		"Lua.workspace.ignoreDir": [
@@ -57,17 +58,17 @@
 		},
 		"workbench.colorCustomizations": {
 			"[Just Black + Comments]": {},
-			"activityBar.background": "#432803",
-			"titleBar.activeBackground": "#5E3804",
-			"titleBar.activeForeground": "#FEF9F3",
-			"titleBar.inactiveBackground": "#754605",
-			"titleBar.inactiveForeground": "#FEF9F2",
-			"statusBar.background": "#754605",
-			"statusBar.foreground": "#FEF9F2",
-			"statusBar.debuggingBackground": "#754605",
-			"statusBar.debuggingForeground": "#FEF9F2",
-			"statusBar.noFolderBackground": "#754605",
-			"statusBar.noFolderForeground": "#FEF9F2"
+			"activityBar.background": "#9B4207",
+			"titleBar.activeBackground": "#D95D0A",
+			"titleBar.activeForeground": "#FFF8F4",
+			"titleBar.inactiveBackground": "#9B4207",
+			"titleBar.inactiveForeground": "#FFF8F4",
+			"statusBar.background": "#9B4207",
+			"statusBar.foreground": "#FFF8F4",
+			"statusBar.debuggingBackground": "#9B4207",
+			"statusBar.debuggingForeground": "#FFF8F4",
+			"statusBar.noFolderBackground": "#9B4207",
+			"statusBar.noFolderForeground": "#FFF8F4"
 		},
 		"metalua-formatter.indentSize": 5
 	}

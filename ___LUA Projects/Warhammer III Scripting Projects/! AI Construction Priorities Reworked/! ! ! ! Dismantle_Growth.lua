@@ -1,6 +1,4 @@
-local function out(t)
-     ModLog("AI CPR: " .. tostring(t) .. ".")
-end
+local function out(t) ModLog("AI CPR: " .. tostring(t) .. ".") end
 
 local function is_growth_building(building_name)
      return (string.find(building_name, "growth") or string.find(building_name, "farm") or string.find(building_name, "wh_main_brt_hospital")) and not string.find(building_name, "wh_main_brt_farm")

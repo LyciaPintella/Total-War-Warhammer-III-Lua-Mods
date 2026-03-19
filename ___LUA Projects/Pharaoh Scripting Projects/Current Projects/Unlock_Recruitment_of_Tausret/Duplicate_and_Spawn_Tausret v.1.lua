@@ -20,8 +20,8 @@ local function log_debug(message)
 end
 
 core:add_listener(
-    "Tausret_Duplicate_Final_FirstTick",
-    "FirstTickAfterWarp",
+    "Duplicate_and_Spawn_Tausret",
+    "FirstTickAfterWorldCreated",
     true,
     function(context)
         log_debug("===== TAUSRET DUPLICATE (FINAL) MOD INITIALIZED =====")
